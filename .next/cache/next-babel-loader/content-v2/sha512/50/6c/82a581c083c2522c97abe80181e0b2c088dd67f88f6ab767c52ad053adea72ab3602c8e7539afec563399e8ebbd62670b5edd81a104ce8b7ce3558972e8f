@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from \"react\";\n\nfunction OuterLink(props) {\n  return /*#__PURE__*/_jsx(\"a\", {\n    href: props.link,\n    target: \"_blank\",\n    rel: \"noopener noreferrer\",\n    children: props.children\n  });\n}\n\nexport default OuterLink;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  scroll-behavior:smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-window-dragging: none;
+}
+
+.MuiPaper-rounded {
+  border-radius: 30px !important;
+}
+
+.MuiButton-root {
+  border-radius: 20px !important;
+}
+
+/* $scroller-color: "f9a825" */
+/* $scrollbar-background: "424242" */
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body {
+  scrollbar-width: thick;
+  scrollbar-color: #f9a825 #424242;
+}
+body::-webkit-scrollbar-track {
+  background: #424242;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #f9a825;
+  border-radius: 20px;
+  border: 2px solid #424242;
+
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
