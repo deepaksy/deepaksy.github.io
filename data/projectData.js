@@ -2,7 +2,7 @@ const projectData = [
   {
     name: "Portfolio",
     description:
-      "This one,which you are looking at!",
+      "A complete static page for my portfolio",
     coverImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjQoh5x5asvSCdwceqoE_-RWNcB6l41VxBQ&usqp=CAU",
     projectLink: "#",
