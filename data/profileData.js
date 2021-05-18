@@ -40,7 +40,7 @@ const profileData = {
     },
     {
       icon: <FaFacebook size="28px" />,
-      link: "https://github.com/deepaksy",
+      link: "https://www.facebook.com/deepak.suryawanshi.9003/",
     },
     {
       icon: <FaInstagram size="28px"/>,
